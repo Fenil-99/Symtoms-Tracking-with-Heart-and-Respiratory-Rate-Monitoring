@@ -1,0 +1,33 @@
+com/example/assignment1/BuildConfig.java
+ com.example.assignment1.BuildConfig
+com/example/assignment1/Symtoms.java
+ com.example.assignment1.Symtoms
+ com.example.assignment1.Symtoms$1
+ com.example.assignment1.Symtoms$2
+ com.example.assignment1.Symtoms$3
+com/example/assignment1/MainActivity.java
+ com.example.assignment1.MainActivity
+ com.example.assignment1.MainActivity$1
+ com.example.assignment1.MainActivity$2
+ com.example.assignment1.MainActivity$3
+ com.example.assignment1.MainActivity$4
+com/example/assignment1/DB_Upload.java
+ com.example.assignment1.DB_Upload
+com/example/assignment1/HeartRateActivity.java
+ com.example.assignment1.HeartRateActivity
+ com.example.assignment1.HeartRateActivity$1
+ com.example.assignment1.HeartRateActivity$2
+ com.example.assignment1.HeartRateActivity$3
+ com.example.assignment1.HeartRateActivity$4
+ com.example.assignment1.HeartRateActivity$5
+com/example/assignment1/RespiratoryRateService.java
+ com.example.assignment1.RespiratoryRateService
+com/example/assignment1/Respiratory.java
+ com.example.assignment1.Respiratory
+ com.example.assignment1.Respiratory$1
+ com.example.assignment1.Respiratory$2
+com/example/assignment1/cam_heart.java
+ com.example.assignment1.cam_heart
+com/example/assignment1/calculations.java
+ com.example.assignment1.SimpleMovingAverage
+ com.example.assignment1.calculations

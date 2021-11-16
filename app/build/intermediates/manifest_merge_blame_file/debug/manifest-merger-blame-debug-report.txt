@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="opencv.org"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-feature -->
+12    <!-- android:name="android.hardware.camera" -->
+13    <!-- android:required="true" /> -->
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:9:5-60
+14-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:9:19-57
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:11:5-65
+16-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.FLASHLIGHT" />
+17-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:12:5-69
+17-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:12:22-66
+18
+19    <uses-feature android:name="android.hardware.camera.flash" />
+19-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:14:5-66
+19-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:14:19-63
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:16:5-67
+21-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:16:22-64
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:17:5-81
+22-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:18:5-80
+23-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:18:22-77
+24
+25    <application
+25-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:20:5-51:19
+26        android:allowBackup="true"
+26-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\Fenil\.gradle\caches\transforms-3\6ab457535c502e1ab2d558aa09c0b233\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:22:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:23:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:24:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:25:9-35
+34        android:theme="@style/Theme.Assignment1" >
+34-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:26:9-49
+35        <activity
+35-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:27:9-29:39
+36            android:name="com.example.assignment1.HeartRateActivity"
+36-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:28:13-46
+37            android:exported="true" />
+37-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:29:13-36
+38
+39        <service
+39-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:31:9-34:39
+40            android:name="com.example.assignment1.RespiratoryRateService"
+40-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:32:13-51
+41            android:enabled="true"
+41-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:33:13-35
+42            android:exported="true" />
+42-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:34:13-36
+43
+44        <activity
+44-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:36:9-38:39
+45            android:name="com.example.assignment1.Respiratory"
+45-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:37:13-40
+46            android:exported="true" />
+46-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:38:13-36
+47        <activity
+47-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:39:9-41:39
+48            android:name="com.example.assignment1.Symtoms"
+48-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:40:13-36
+49            android:exported="true" />
+49-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:41:13-36
+50        <activity
+50-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:42:9-50:20
+51            android:name="com.example.assignment1.MainActivity"
+51-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:43:13-41
+52            android:exported="true" >
+52-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:44:13-36
+53            <intent-filter>
+53-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:45:13-49:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:46:17-69
+54-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:46:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:48:17-77
+56-->C:\Users\Fenil\AndroidStudioProjects\Assignment1\app\src\main\AndroidManifest.xml:48:27-74
+57            </intent-filter>
+58        </activity>
+59    </application>
+60
+61</manifest>

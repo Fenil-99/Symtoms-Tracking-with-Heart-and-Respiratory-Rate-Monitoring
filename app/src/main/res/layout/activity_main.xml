@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/SYMPTOMS"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/teal_200"
+
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="@string/symptoms"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/UPLOAD_SIGNS"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/design_default_color_background"
+        android:backgroundTint="@color/design_default_color_background"
+        android:text="@string/upload_signs"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/HEART_RATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:background="@color/design_default_color_background"
+        android:text="@string/measure_heart_rate"
+        android:textColor="@color/black" />
+<!--    <FrameLayout-->
+<!--        android:id="@+id/frameLayout"-->
+<!--        android:layout_width="265dp"-->
+<!--        android:layout_height="193dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_constraintHorizontal_bias="0.0"-->
+<!--        android:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_constraintVertical_bias="0.829">-->
+
+<!--        <VideoView-->
+<!--            android:id="@+id/videoView"-->
+<!--            android:layout_width="311dp"-->
+<!--            android:layout_height="188dp" />-->
+<!--    </FrameLayout>-->
+
+    <Button
+        android:id="@+id/measure_respiratory_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/design_default_color_background"
+        android:text="@string/measure_respiratory_rate"
+        android:textColor="@color/black"
+        app:iconTint="@color/black" />
+</RelativeLayout>
